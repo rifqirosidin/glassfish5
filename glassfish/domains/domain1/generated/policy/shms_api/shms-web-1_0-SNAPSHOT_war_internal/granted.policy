@@ -1,0 +1,48 @@
+/* AUTOMATICALLY GENERATED ON Mon Jan 02 23:07:35 UTC 2023*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "SensorController", "deleteById,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserController", "update,Local,com.rifqi.shms.main.restfull.user.UserDTO";
+  permission javax.security.jacc.EJBMethodPermission "BridgeSensorController", "create,Local,com.rifqi.shms.main.restfull.bridgesensor.BridgeSensorDTO";
+  permission javax.security.jacc.EJBMethodPermission "UserController", "getAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SensorController", "createBridge,Local,com.rifqi.shms.main.restfull.sensor.SensorDTO";
+  permission javax.security.jacc.EJBMethodPermission "SensorController", "getAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RestfulProvider", "getSensorActivityService,Local,com.rifqi.shms.abstraction.repository.SensorActivityRepository";
+  permission javax.security.jacc.EJBMethodPermission "BridgeController", "update,Local,com.rifqi.shms.main.restfull.bridge.BridgeDTO";
+  permission javax.security.jacc.EJBMethodPermission "UserController", "deleteById,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SensorActivityController", "createActivities,Local,com.rifqi.shms.main.restfull.sensoractivity.SensorActivityDTO";
+  permission javax.security.jacc.EJBMethodPermission "RestfulProvider", "getUserService,Local,com.rifqi.shms.abstraction.repository.UserRepository";
+  permission javax.security.jacc.EJBMethodPermission "SensorActivityController", "getAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SensorController", "getById,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "SensorActivityController", "createActivity,Local,com.rifqi.shms.main.restfull.sensoractivity.SensorActivityDTO";
+  permission javax.security.jacc.EJBMethodPermission "BridgeSensorController", "deleteById,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "LoginController", "login,Local,com.rifqi.shms.main.restfull.user.UserDTO";
+  permission javax.security.jacc.EJBMethodPermission "BridgeController", "deleteById,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RestfulProvider", "getSensorService,Local,com.rifqi.shms.abstraction.repository.SensorRepository";
+  permission javax.security.jacc.EJBMethodPermission "UserController", "addNewUser,Local,com.rifqi.shms.main.restfull.user.UserDTO";
+  permission javax.security.jacc.EJBMethodPermission "BridgeController", "getAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SensorActivityController", "getByBridgeId,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserController", "getById,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "BridgeSensorController", "getByBridgeId,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RestfulProvider", "getBridgeSensorService,Local,com.rifqi.shms.abstraction.repository.BridgeSensorRepository";
+  permission javax.security.jacc.EJBMethodPermission "TestController", "testApi,Local,";
+  permission javax.security.jacc.EJBMethodPermission "SensorController", "update,Local,com.rifqi.shms.main.restfull.sensor.SensorDTO";
+  permission javax.security.jacc.EJBMethodPermission "UserController", "create,Local,com.rifqi.shms.main.restfull.user.UserDTO";
+  permission javax.security.jacc.EJBMethodPermission "LoginController", "getMe,Local,";
+  permission javax.security.jacc.EJBMethodPermission "BridgeController", "createBridge,Local,com.rifqi.shms.main.restfull.bridge.BridgeDTO";
+  permission javax.security.jacc.EJBMethodPermission "RestfulProvider", "getBridgeService,Local,com.rifqi.shms.abstraction.repository.BridgeRepository";
+  permission javax.security.jacc.EJBMethodPermission "BridgeController", "getById,Local,java.lang.String";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "TestController", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "LoginController", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "SensorActivityController", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "UserController", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "BridgeController", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "SensorController", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "RestfulProvider", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "BridgeSensorController", "**";
+};
+
